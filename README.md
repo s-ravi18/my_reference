@@ -1,1 +1,1 @@
-This repo contains some of the fundamental building blocks of code while I was learning certain libraries.
+This repo contains some of the fundamental syntax of certain libraries used in Machine Learning.
