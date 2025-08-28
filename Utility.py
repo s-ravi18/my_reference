@@ -132,8 +132,8 @@ class evaluation:
         Returns:
         None
         """
-        unique_realid_count = df['realid'].nunique()
-        print(f"Number of unique 'realid': {unique_realid_count}")
+        unique_id_count = df['id'].nunique()
+        print(f"Number of unique 'id': {unique_id_count}")
         duplicates = df[df.duplicated(keep=False)]
         if not duplicates.empty:
             print("Duplicate records found:")
